@@ -1,4 +1,4 @@
-📘 Student Enrollment Form - Micro Project
+# 📘 Student Enrollment Form - Micro Project
 📌 Project Overview
 
 This is a Student Enrollment System built using HTML, CSS, JavaScript, Python (Flask), and MySQL.
