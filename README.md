@@ -6,7 +6,7 @@ It allows users to add, view, and update student records based on the primary ke
 
 The project follows CRUD-like logic with Save, Update, and Reset operations.
 
-🚀 Features
+# 🚀 Features
 
 🎯 Add new student records
 🔍 Auto-check Roll Number (Primary Key)
@@ -16,15 +16,15 @@ The project follows CRUD-like logic with Save, Update, and Reset operations.
 🚫 Field validation (no empty inputs allowed)
 🎨 Clean and responsive UI
 
-🧩 Tech Stack
+# 🧩 Tech Stack
 
-Layer	Technology
-Frontend	HTML, CSS, Bootstrap, JavaScript
-Backend	Python Flask
-Database	MySQL
-API	REST API (Flask routes)
+Layer	    Technology
+Frontend:	HTML, CSS, Bootstrap, JavaScript
+Backend	:   Python Flask
+Database:	MySQL
+API	REST API: (Flask routes)
 
-🗄️ Database Structure
+# 🗄️ Database Structure
 
 Database: school_db
 Table: student
@@ -37,7 +37,7 @@ CREATE TABLE student (
     enrollment_date DATE
 );
 
-📋 Form Fields
+# 📋 Form Fields
 Field Name	Type	Description
 Roll No	Primary Key	Unique student ID
 Full Name	Text	Student full name
@@ -46,7 +46,7 @@ Birth Date	Date	Date of birth
 Address	Text	Student address
 Enrollment Date	Date	Admission date
 
-⚙️ Project Workflow
+# ⚙️ Project Workflow
 
 1️⃣ Initial State
 
@@ -81,7 +81,7 @@ Resets form
 Clears all fields
 Returns to initial state
 
-🛠️ How to Run the Project
+# 🛠️ How to Run the Project
 
 1️⃣ Install dependencies
 pip install flask flask-cors mysql-connector-python
@@ -102,7 +102,7 @@ Open in browser:
 
 http://127.0.0.1:5000
 
-📁 Project Structure
+# 📁 Project Structure
 student-enrollment-project/
 │
 ├── app.py
@@ -118,7 +118,7 @@ student-enrollment-project/
 |
 |-----README.md
 
-🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 CRUD operations
 REST API development using Flask
@@ -127,10 +127,11 @@ Frontend-backend communication
 Form validation logic
 Primary key based data handling
 
-👨‍💻 Author
+# 👨‍💻 Author
+# SYED SADAIN
 
 Student Micro Project Submission
 
-⭐ Conclusion
+# ⭐ Conclusion
 
 This project demonstrates a complete full-stack web application with database integration and dynamic form behavior based on primary key validation.
